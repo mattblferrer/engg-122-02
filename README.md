@@ -1,0 +1,12 @@
+ENGG 122.02 - Microprocessors and Microcontrollers
+- Activity 1: Arduino 1: Number System
+- Activity 2: Arduino 2: T-Bird
+- Activity 3A: Arduino 3A: Analog Input, Analog Joystick, LDR
+- Activity 3B: Arduino 3B: Analog Output - RGB
+- Activity 4: Assembly Language Programming
+- Activity 5: Machine Language Programming
+- Activity 6: Arduino 4: Analog Output - Motor
+- Activity 7: Arduino 5A: Finite-State Machine (Car Seat Belt)
+- Activity 8: Arduino 6A: Keypad
+- Activity 9: Arduino 7A: Liquid Crystal Display (Digital Watch)
+- Activity 10: Arduino 8: Sensors - Touch sensor & Sonar Sensor
