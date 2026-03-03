@@ -1,0 +1,27 @@
+;PART 1
+ ldaa #$00
+ ldx #$0100
+loop1 staa $0,x
+ inca
+ inx
+ cmpa #$10
+ bne loop1
+
+;PART 2
+ ldx #$0100
+loop2 ldaa $0,x
+ staa $20,x
+ inx
+ cpx #$0110
+ bne loop2
+
+;PART 3
+ ldx #$010A
+ ldaa $0,x
+ ldx #$0123
+ ldab $0,x
+ aba
+ ldx #$00F4
+ staa $0,x
+ 
+ end

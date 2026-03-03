@@ -1,0 +1,34 @@
+; Matt Ferrer
+; Activity 5
+;----------------- 
+; store values from variables
+ ldaa #lsb1
+ staa $E100
+ ldaa #msb1
+ staa $E101
+ ldaa #lsb2
+ staa $E200
+ ldaa #msb2
+ staa $E201
+
+;-----------------
+; perform addition
+ ldaa $E100
+ adda $E200
+ staa $E300
+
+ ldaa $E101
+ adca $E201
+ staa $E301
+
+ ldaa #$00
+ adca #$00
+ staa $E302
+;-----------------
+; store initial values
+lsb1 .equ $AB
+msb1 .equ $CD
+lsb2 .equ $99
+msb2 .equ $FF
+
+ end
